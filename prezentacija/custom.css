@@ -1,5 +1,6 @@
 /* web fonts */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('http://mirrors.ctan.org/fonts/lm/fonts/opentype/public/lm/lmmono10-regular.otf');
 
 /* colors */
 :root {
@@ -33,6 +34,16 @@ hr {
     color: var(--red_accent);
     margin-bottom: 5pt;
     margin-top: 0pt;
+    border-style: solid;
+}
+
+.titleSlide {
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--inverse_text);
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .sectionSlide{

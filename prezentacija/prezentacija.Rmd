@@ -8,7 +8,8 @@ output:
             ratio: '16:9'
             countIncrementalSlides: false
             titleSlideClass: [sectionSlide]
-        css: ['custom.css']
+        seal: false
+        css: [custom.css, 'animate.css']
 ---
 
 ```{r setup, include=F, echo=F}
@@ -27,12 +28,27 @@ BibOptions(check.entries = F,
 bib <- ReadBib(here('prezentacija', 'reference.bib'),
                check = F)
 ```
+class: titleSlide
 
-class: sectionSlide
+<div>
+    <h1 style="padding-right: 100px; margin-right: 0px; color: var(--background); background: white; padding-top: 50px; padding-bottom: 50px; padding-left: 100px;">
+        Veliki skupovi podataka i etička pitanja
+    </h1>
+</div>
+
+## Etički kolokvij
+
+### Denis Vlašiček
+
+---
+
+class: sectionSlide, animated, slideInLeft
 
 # Big data
 
 ---
+
+class: animated, slideInLeft
 
 ## Opis
 
@@ -40,23 +56,27 @@ class: sectionSlide
 
 ---
 
-class: sectionSlide
+class: sectionSlide, animated, slideInLeft
 
 # Prikupljanje
 
 ---
 
-## Tmp
+class: animated, slideInLeft
+
+## Pristanak
 
 <hr></hr>
 
 ---
 
-class: sectionSlide
+class: sectionSlide, animated, slideInLeft
 
 # Dijeljenje
 
 ---
+
+## Reference
 
 ```{r printRefs, results='asis', echo=F}
 PrintBibliography(bib)

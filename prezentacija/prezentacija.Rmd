@@ -1,0 +1,53 @@
+---
+title: 'Veliki skupovi podataka i etička pitanja'
+subtitle: 'Etički kolokvij'
+author: 'Denis Vlašiček'
+output:
+    xaringan::moon_reader:
+        nature:
+            ratio: '16:9'
+            countIncrementalSlides: false
+            titleSlideClass: [sectionSlide]
+        css: ['custom.css']
+---
+
+```{r setup, include=F, echo=F}
+library(RefManageR)
+library(here)
+
+BibOptions(check.entries = F,
+           bib.style = 'authoryear',
+           cite.style = 'authoryear',
+           style = 'markdown',
+           hyperlink = F,
+           dashed = F,
+           max.names = 1,
+           longnamesfirst = F)
+
+bib <- ReadBib(here('prezentacija', 'reference.bib'),
+               check = F)
+```
+
+class: sectionSlide
+
+# Test
+
+---
+
+## subse
+
+citat
+`r Citep(bib, 'aguasvivasSPALEXSpanishLexical2018')`
+
+---
+
+class: sectionSlide
+
+# Test 2
+
+---
+
+```{r printRefs, results='asis', echo=F}
+PrintBibliography(bib)
+```
+

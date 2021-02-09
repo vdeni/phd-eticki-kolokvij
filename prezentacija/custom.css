@@ -1,0 +1,18 @@
+/* colors */
+:root {
+    --red_accent: #b22222;
+    --background: #591111;
+    --inverse_text: #f5e3e3;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sectionSlide{
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--background);
+    color: var(--inverse_text);
+}

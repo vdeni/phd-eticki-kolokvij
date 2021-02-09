@@ -30,24 +30,34 @@ bib <- ReadBib(here('prezentacija', 'reference.bib'),
 
 class: sectionSlide
 
-# Test
+# Big data
 
 ---
 
-## subse
+## Opis
 
-citat
-`r Citep(bib, 'aguasvivasSPALEXSpanishLexical2018')`
+<hr></hr>
 
 ---
 
 class: sectionSlide
 
-# Test 2
+# Prikupljanje
+
+---
+
+## Tmp
+
+<hr></hr>
+
+---
+
+class: sectionSlide
+
+# Dijeljenje
 
 ---
 
 ```{r printRefs, results='asis', echo=F}
 PrintBibliography(bib)
 ```
-

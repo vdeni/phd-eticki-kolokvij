@@ -1,13 +1,38 @@
+/* web fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
 /* colors */
 :root {
     --red_accent: #b22222;
     --background: #591111;
-    --inverse_text: #f5e3e3;
+    --inverse_text: #ffffff;
+}
+
+body {
+    font-family: "Latin Modern Roman";
+}
+
+h1, h2, h3 {
+    font-family: "Comfortaa";
 }
 
 h1 {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 45pt;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 10pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+hr {
+    color: var(--red_accent);
+    margin-bottom: 5pt;
+    margin-top: 0pt;
 }
 
 .sectionSlide{
@@ -15,4 +40,16 @@ h1 {
     text-align: center;
     background-color: var(--background);
     color: var(--inverse_text);
+}
+
+.remark-slide-number {
+    font-family: "Comfortaa";
+}
+
+#eti-ki-kolokvij {
+    font-size: 18pt;
+}
+
+#denis-vla-i-ek {
+    font-size: 16pt;
 }

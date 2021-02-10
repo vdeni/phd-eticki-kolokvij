@@ -57,25 +57,25 @@ class: sectionSlide, animated, slideInLeft
 
 class: animated, slideInLeft
 
-<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px'>
+<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px;'>
 
 <ul class='pull-right' style='padding-top: 90pt'>
 <li>veliki skupovi podataka</li>
 
-<div style='color: #ffffff'>
+.whiteout[
 <li>kontinuirano se proširuju</li>
  
 <li>često nestrukturirani</li>
 
 <li>ograničena mogućnost kontrole kvalitete</li>
-</div>
+]
 </ul>
 
 ---
 
 count: false
 
-<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px'>
+<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px;'>
 
 <ul class='pull-right' style='padding-top: 90pt'>
 <li>veliki skupovi podataka</li>
@@ -101,9 +101,53 @@ class: sectionSlide, animated, slideInLeft
 
 class: animated, slideInLeft
 
-## Pristanak
+## Specifičnosti
 
 <hr></hr>
+
+<img src='images/id.svg' class='pull-right' width='300' height='300' style='padding-top: 100px; padding-bottom: 200px;'>
+
+<ul class='pull-left' style='padding-top: 20px;'>
+<li>odobrenje etičkog povjerenstva?</li>
+
+.whiteout[
+<li>informirani pristanak?</li>
+
+<li>rizik od identifikacije?</li>
+
+<li>bogatstvo informacija</li>
+
+<li>povezivanje s drugim izvorima</li>
+]
+</ul>
+
+---
+
+count: false
+
+## Specifičnosti
+
+<hr></hr>
+
+<img src='images/id.svg' class='pull-right' width='300' height='300' style='padding-top: 100px; padding-bottom: 200px;'>
+
+<ul class='pull-left' style='padding-top: 20px;'>
+<li>odobrenje etičkog povjerenstva?</li>
+
+<li>informirani pristanak?</li>
+
+--
+
+<li>rizik od identifikacije?</li>
+
+--
+
+<li>bogatstvo informacija</li>
+
+--
+
+<li>povezivanje s drugim izvorima</li>
+</ul>
 
 ---
 

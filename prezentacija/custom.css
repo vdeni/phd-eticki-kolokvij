@@ -42,6 +42,13 @@ li {
     padding-bottom: 15pt;
     padding-top: 15pt;
     font-size: 20pt;
+    vertical-align: middle;
+}
+
+li::marker {
+    display: inline;
+    vertical-align: middle;
+    font-family: "Comfortaa";
 }
 
 .titleSlide {
@@ -72,6 +79,10 @@ li {
 .pull-right {
   float: right;
   width: 47%;
+}
+
+.whiteout {
+    color: #ffffff;
 }
 
 #eti-ki-kolokvij {

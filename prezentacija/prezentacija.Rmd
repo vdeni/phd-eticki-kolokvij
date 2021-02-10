@@ -9,7 +9,7 @@ output:
             countIncrementalSlides: false
             titleSlideClass: [sectionSlide]
         seal: false
-        css: [custom.css, 'animate.css']
+        css: ['custom.css', 'animate.css']
 ---
 
 ```{r setup, include=F, echo=F}
@@ -30,7 +30,8 @@ bib <- ReadBib(here('prezentacija', 'reference.bib'),
 ```
 class: titleSlide
 
-<script src="https://kit.fontawesome.com/43b8869272.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/43b8869272.js" crossorigin="anonymous">
+</script>
  
 <div>
     <h1 style="padding-right: 100px; margin-right: 0px; color: var(--background); background: white; padding-top: 50px; padding-bottom: 50px; padding-left: 100px;">
@@ -38,14 +39,12 @@ class: titleSlide
     </h1>
 </div>
 
-
-
 ## Etički kolokvij
 
 ### Denis Vlašiček
 
 <span, style='font-family: Comfortaa; font-size: 14pt;'>
-    <i class="fab fa-github"></i> vdeni.github.io/eticki-kolokvij
+    <i class="fab fa-github"></i> vdeni.github.io/phd-eticki-kolokvij
 </span>
 
 ---
@@ -58,9 +57,39 @@ class: sectionSlide, animated, slideInLeft
 
 class: animated, slideInLeft
 
-## Opis
+<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px'>
 
-<hr></hr>
+<ul class='pull-right' style='padding-top: 90pt'>
+<li>veliki skupovi podataka</li>
+
+<div style='color: #ffffff'>
+<li>kontinuirano se proširuju</li>
+ 
+<li>često nestrukturirani</li>
+
+<li>ograničena mogućnost kontrole kvalitete</li>
+</div>
+</ul>
+
+---
+
+count: false
+
+<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px'>
+
+<ul class='pull-right' style='padding-top: 90pt'>
+<li>veliki skupovi podataka</li>
+
+<li>kontinuirano se proširuju</li>
+ 
+--
+
+<li>često nestrukturirani</li>
+
+--
+
+<li>ograničena mogućnost kontrole kvalitete</li>
+</ul>
 
 ---
 
@@ -81,6 +110,12 @@ class: animated, slideInLeft
 class: sectionSlide, animated, slideInLeft
 
 # Dijeljenje
+
+---
+
+class: sectionSlide, animated, slideInLeft
+
+# Uporaba
 
 ---
 

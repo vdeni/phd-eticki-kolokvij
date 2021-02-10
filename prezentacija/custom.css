@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Latin Modern Roman', 'Scope One', 'Garamond', serif;
+    font-size: 20pt;
 }
 
 h1, h2, h3 {
@@ -32,9 +33,15 @@ h3 {
 
 hr {
     color: var(--accent);
-    margin-bottom: 5pt;
+    margin-bottom: 20pt;
     margin-top: 0pt;
     border-style: solid;
+}
+
+li {
+    padding-bottom: 15pt;
+    padding-top: 15pt;
+    font-size: 20pt;
 }
 
 .titleSlide {
@@ -55,6 +62,16 @@ hr {
 
 .remark-slide-number {
     font-family: 'Comfortaa';
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
 }
 
 #eti-ki-kolokvij {

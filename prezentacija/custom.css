@@ -1,20 +1,20 @@
 /* web fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
-@import url('http://mirrors.ctan.org/fonts/lm/fonts/opentype/public/lm/lmmono10-regular.otf');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
 
 /* colors */
 :root {
-    --red_accent: #b22222;
-    --background: #591111;
+    --accent: #2aa3b4;
+    --background: #0c96a9;
     --inverse_text: #ffffff;
 }
 
 body {
-    font-family: "Latin Modern Roman";
+    font-family: 'Latin Modern Roman', 'Scope One', 'Garamond', serif;
 }
 
 h1, h2, h3 {
-    font-family: "Comfortaa";
+    font-family: 'Comfortaa', 'Helvetica', sans-serif;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h3 {
 }
 
 hr {
-    color: var(--red_accent);
+    color: var(--accent);
     margin-bottom: 5pt;
     margin-top: 0pt;
     border-style: solid;
@@ -54,7 +54,7 @@ hr {
 }
 
 .remark-slide-number {
-    font-family: "Comfortaa";
+    font-family: 'Comfortaa';
 }
 
 #eti-ki-kolokvij {

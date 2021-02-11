@@ -5,6 +5,7 @@
 /* colors */
 :root {
     --accent: #2aa3b4;
+    --accent_transparent: #2aa3b4dd;
     --background: #0c96a9;
     --inverse_text: #ffffff;
 }
@@ -54,6 +55,17 @@ li::marker {
 img {
     width: 250px;
     height: 250px;
+}
+
+blockquote {
+    background: var(--accent_transparent);
+    color: var(--inverse_text);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
 }
 
 .titleSlide {
@@ -115,4 +127,8 @@ img {
     padding-right: 90px;
     height: 350px;
     width: 350px;
+}
+
+#share {
+    margin-top: 170px;
 }

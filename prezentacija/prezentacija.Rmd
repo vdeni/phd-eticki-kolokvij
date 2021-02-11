@@ -176,6 +176,8 @@ class: animated, slideInLeft
 
 ---
 
+count: false
+
 ## Privatnost
 
 <hr></hr>
@@ -185,8 +187,6 @@ class: animated, slideInLeft
 <ul class='pull-left' style='padding-top: 70px;'>
 
 <li>što je privatnost na društvenim mrežama?</li>
-
---
 
 <li>privatni ili javni prostori?</li>
 
@@ -204,14 +204,96 @@ class: sectionSlide, animated, slideInLeft
 
 ---
 
+class: animated, slideInLeft
+
+<blockquote style='margin-top: 130px'>
+And, while some language technology is genuinely designed to benefit
+marginalized communities, most language technology is built to serve the needs
+of those who already have the most privilege in society. [...] [T]he harms that
+follow are most likely to fall on marginalized populations who, even in rich
+nations, are most likely to experience environmental racism.
+`r Citep(bib, 'bender2021dangers', after = '; p. 4')`
+</blockquote>
+
+
+<blockquote style='background: #ffffff'>
+Poor people are more likely to have bad credit and live in high-crime
+neighborhoods, surrounded by poor other people. [The algorithm then] showers
+them with predatory ads for subprime loans [...]. It sends more police to
+arrest them, and when they're convicted, it sentences them to longer terms.
+</blockquote>
+
+???
+
+5t CO2e po osobi u godinu dana; 284t CO2e za treniranje jednog modela
+
+---
+
+count: false
+
+<blockquote style='margin-top: 130px'>
+And, while some language technology is genuinely designed to benefit
+marginalized communities, most language technology is built to serve the needs
+of those who already have the most privilege in society. [...] [T]he harms that
+follow are most likely to fall on marginalized populations who, even in rich
+nations, are most likely to experience environmental racism.
+`r Citep(bib, 'bender2021dangers', after = '; p. 4')`
+</blockquote>
+
+<blockquote>
+Poor people are more likely to have bad credit and live in high-crime
+neighborhoods, surrounded by other poor people. [The algorithm then] showers
+them with predatory ads for subprime loans [...]. It sends more police to
+arrest them, and when they're convicted, it sentences them to longer terms.
+`r Citep(bib, 'o2016weapons', after = '; pp. 199-200')`
+</blockquote>
+
+---
+
 class: sectionSlide, animated, slideInLeft
 
 # Dijeljenje
 
 ---
 
-## Reference
+class: animated, slideInLeft
+
+<img id='share' src='images/share.svg' class='pull-left'>
+
+<ul class='pull-right' style='margin-top: 180px'>
+<li>anonimnost?</li>
+
+.whiteout[
+<li>dopušteno dijeljenje?</li>
+
+<li>reproducibilnost!</li>
+]
+</ul>
+
+---
+
+<img id='share' src='images/share.svg' class='pull-left'>
+
+<ul class='pull-right' style='margin-top: 180px'>
+<li>anonimnost?</li>
+
+<li>dopušteno dijeljenje?</li>
+
+--
+
+<li>reproducibilnost!</li>
+</ul>
+
+---
+
+class: animated, slideInLeft
+
+## Reference i resursi
 
 ```{r printRefs, results='asis', echo=F}
+NoCite(bib, c('10.1371/journal.pcbi.1005399', 'bishop2017big'))
 PrintBibliography(bib)
 ```
+
+Ilustracije nastale na temelju [FontAwesome](https://fontawesome.com/) ikona
+koje su pokrivene CC-BY 4.0 [licencom](https://fontawesome.com/license).

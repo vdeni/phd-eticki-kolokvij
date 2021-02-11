@@ -9,7 +9,7 @@ output:
             countIncrementalSlides: false
             titleSlideClass: [sectionSlide]
         seal: false
-        css: ['custom.css', 'animate.css']
+        css: ['css/custom.css', 'css/animate.css']
 ---
 
 ```{r setup, include=F, echo=F}
@@ -92,6 +92,16 @@ count: false
 <li>ograničena mogućnost kontrole kvalitete</li>
 </ul>
 
+???
+
+- kontinuirano dodavanje novih unosa, ali moguće i dodavanje novih varijabli
+(ali i njihovo uklanjanje)
+
+- nestrukturirani u smislu da nije uvijek lijepi pravokutnik na kakve smo mi
+navikli
+
+- podaci s društvenih mreža, ali i registri, velike baze fotografija
+
 ---
 
 class: sectionSlide, animated, slideInLeft
@@ -110,12 +120,12 @@ class: animated, slideInLeft
 
 <ul class='pull-left' style='padding-top: 20px;'>
 
-<li>rizik od identifikacije?</li>
+<li>bogatstvo informacija</li>
 
 .whiteout[
-<li>informirani pristanak?</li>
+<li>rizik od identifikacije?</li>
 
-<li>bogatstvo informacija</li>
+<li>informirani pristanak?</li>
 
 <li>povezivanje s drugim izvorima</li>
 
@@ -135,17 +145,17 @@ count: false
 
 <ul class='pull-left' style='padding-top: 20px;'>
 
-<li>rizik od identifikacije?</li>
-
-<li>informirani pristanak?</li>
-
---
-
 <li>bogatstvo informacija</li>
+
+<li>rizik od identifikacije?</li>
 
 --
 
 <li>povezivanje s drugim izvorima</li>
+
+--
+
+<li>informirani pristanak?</li>
 
 --
 
@@ -252,7 +262,7 @@ arrest them, and when they're convicted, it sentences them to longer terms.
 
 class: sectionSlide, animated, slideInLeft
 
-# Dijeljenje
+# Dijeljenje i pohrana
 
 ---
 
@@ -291,7 +301,8 @@ class: animated, slideInLeft
 ## Reference i resursi
 
 ```{r printRefs, results='asis', echo=F}
-NoCite(bib, c('10.1371/journal.pcbi.1005399', 'bishop2017big'))
+NoCite(bib, c('10.1371/journal.pcbi.1005399', 'bishop2017big',
+              'cessda_training_team_2020_3820473'))
 PrintBibliography(bib)
 ```
 

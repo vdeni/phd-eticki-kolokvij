@@ -57,9 +57,10 @@ class: sectionSlide, animated, slideInLeft
 
 class: animated, slideInLeft
 
-<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px;'>
+<img id='big-data' src='images/server.svg' class='pull-left'>
 
 <ul class='pull-right' style='padding-top: 90pt'>
+
 <li>veliki skupovi podataka</li>
 
 .whiteout[
@@ -75,7 +76,7 @@ class: animated, slideInLeft
 
 count: false
 
-<img src='images/server.svg' class='pull-left' width='300' height='300' style='padding-top: 150px; padding-bottom: 150px;'>
+<img id='big-data' src='images/server.svg' class='pull-left'>
 
 <ul class='pull-right' style='padding-top: 90pt'>
 <li>veliki skupovi podataka</li>
@@ -105,19 +106,20 @@ class: animated, slideInLeft
 
 <hr></hr>
 
-<img src='images/id.svg' class='pull-right' width='300' height='300' style='padding-top: 100px; padding-bottom: 200px;'>
+<img id='specificnosti' src='images/id.svg' class='pull-right'>
 
 <ul class='pull-left' style='padding-top: 20px;'>
-<li>odobrenje etičkog povjerenstva?</li>
+
+<li>rizik od identifikacije?</li>
 
 .whiteout[
 <li>informirani pristanak?</li>
 
-<li>rizik od identifikacije?</li>
-
 <li>bogatstvo informacija</li>
 
 <li>povezivanje s drugim izvorima</li>
+
+<li>odobrenje etičkog povjerenstva?</li>
 ]
 </ul>
 
@@ -129,16 +131,13 @@ count: false
 
 <hr></hr>
 
-<img src='images/id.svg' class='pull-right' width='300' height='300' style='padding-top: 100px; padding-bottom: 200px;'>
+<img id='specificnosti' src='images/id.svg' class='pull-right'>
 
 <ul class='pull-left' style='padding-top: 20px;'>
-<li>odobrenje etičkog povjerenstva?</li>
-
-<li>informirani pristanak?</li>
-
---
 
 <li>rizik od identifikacije?</li>
+
+<li>informirani pristanak?</li>
 
 --
 
@@ -147,19 +146,67 @@ count: false
 --
 
 <li>povezivanje s drugim izvorima</li>
+
+--
+
+<li>odobrenje etičkog povjerenstva?</li>
+</ul>
+
+---
+
+class: animated, slideInLeft
+
+## Privatnost
+
+<hr></hr>
+
+<img id='privacy' src='images/privacy.svg' class='pull-right'>
+
+<ul class='pull-left' style='padding-top: 70px;'>
+
+<li>što je privatnost na društvenim mrežama?</li>
+
+.whiteout[
+<li>privatni ili javni prostori?</li>
+
+<li>očekivanja privatnosti od strane korisnika?</li>
+]
+
+</ul>
+
+---
+
+## Privatnost
+
+<hr></hr>
+
+<img id='privacy' src='images/privacy.svg' class='pull-right'>
+
+<ul class='pull-left' style='padding-top: 70px;'>
+
+<li>što je privatnost na društvenim mrežama?</li>
+
+--
+
+<li>privatni ili javni prostori?</li>
+
+--
+
+<li>očekivanja privatnosti od strane korisnika?</li>
+
 </ul>
 
 ---
 
 class: sectionSlide, animated, slideInLeft
 
-# Dijeljenje
+# Uporaba
 
 ---
 
 class: sectionSlide, animated, slideInLeft
 
-# Uporaba
+# Dijeljenje
 
 ---
 

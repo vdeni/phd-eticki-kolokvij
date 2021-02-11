@@ -51,6 +51,11 @@ li::marker {
     font-family: "Comfortaa";
 }
 
+img {
+    width: 250px;
+    height: 250px;
+}
+
 .titleSlide {
     vertical-align: middle;
     text-align: center;
@@ -69,6 +74,7 @@ li::marker {
 
 .remark-slide-number {
     font-family: 'Comfortaa';
+    top: 646px;
 }
 
 .pull-left {
@@ -91,4 +97,22 @@ li::marker {
 
 #denis-vla-i-ek {
     font-size: 16pt;
+}
+
+#big-data {
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+#specificnosti {
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+#privacy {
+    padding-top: 70px;
+    padding-bottom: 250px;
+    padding-right: 90px;
+    height: 350px;
+    width: 350px;
 }

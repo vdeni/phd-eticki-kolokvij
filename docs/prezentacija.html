@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Veliki skupovi podataka i etička pitanja</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Denis Vlašiček" />
+    <script src="prezentacija_files/header-attrs-2.6/header-attrs.js"></script>
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: titleSlide
+
+&lt;script src="https://kit.fontawesome.com/43b8869272.js" crossorigin="anonymous"&gt;
+&lt;/script&gt;
+ 
+&lt;div&gt;
+    &lt;h1 style="padding-right: 100px; margin-right: 0px; color: var(--background); background: white; padding-top: 50px; padding-bottom: 50px; padding-left: 100px;"&gt;
+        Istraživačka etika i veliki skupovi podataka
+    &lt;/h1&gt;
+&lt;/div&gt;
+
+## Etički kolokvij
+
+### Denis Vlašiček
+
+&lt;span, style='font-family: Comfortaa; font-size: 14pt;'&gt;
+    &lt;i class="fab fa-github"&gt;&lt;/i&gt; vdeni.github.io/phd-eticki-kolokvij
+&lt;/span&gt;
+
+---
+
+class: sectionSlide, animated, slideInLeft
+
+# Big data
+
+---
+
+class: animated, slideInLeft
+
+&lt;img id='big-data' src='images/server.svg' class='pull-left'&gt;
+
+&lt;ul class='pull-right' style='padding-top: 90pt'&gt;
+
+&lt;li&gt;veliki skupovi podataka&lt;/li&gt;
+
+.whiteout[
+&lt;li&gt;kontinuirano se proširuju&lt;/li&gt;
+ 
+&lt;li&gt;često nestrukturirani&lt;/li&gt;
+
+&lt;li&gt;ograničena mogućnost kontrole kvalitete&lt;/li&gt;
+]
+&lt;/ul&gt;
+
+---
+
+count: false
+
+&lt;img id='big-data' src='images/server.svg' class='pull-left'&gt;
+
+&lt;ul class='pull-right' style='padding-top: 90pt'&gt;
+&lt;li&gt;veliki skupovi podataka&lt;/li&gt;
+
+&lt;li&gt;kontinuirano se proširuju&lt;/li&gt;
+ 
+--
+
+&lt;li&gt;često nestrukturirani&lt;/li&gt;
+
+--
+
+&lt;li&gt;ograničena mogućnost kontrole kvalitete&lt;/li&gt;
+&lt;/ul&gt;
+
+???
+
+- kontinuirano dodavanje novih unosa, ali moguće i dodavanje novih varijabli
+(ali i njihovo uklanjanje)
+
+- nestrukturirani u smislu da nije uvijek lijepi pravokutnik na kakve smo mi
+navikli
+
+- podaci s društvenih mreža, ali i registri, velike baze fotografija
+
+---
+
+class: sectionSlide, animated, slideInLeft
+
+# Prikupljanje
+
+---
+
+class: animated, slideInLeft
+
+## Specifičnosti
+
+&lt;hr&gt;&lt;/hr&gt;
+
+&lt;img id='specificnosti' src='images/id.svg' class='pull-right'&gt;
+
+&lt;ul class='pull-left' style='padding-top: 20px;'&gt;
+
+&lt;li&gt;bogatstvo informacija&lt;/li&gt;
+
+.whiteout[
+&lt;li&gt;rizik od identifikacije?&lt;/li&gt;
+
+&lt;li&gt;informirani pristanak?&lt;/li&gt;
+
+&lt;li&gt;povezivanje s drugim izvorima&lt;/li&gt;
+
+&lt;li&gt;odobrenje etičkog povjerenstva?&lt;/li&gt;
+]
+&lt;/ul&gt;
+
+---
+
+count: false
+
+## Specifičnosti
+
+&lt;hr&gt;&lt;/hr&gt;
+
+&lt;img id='specificnosti' src='images/id.svg' class='pull-right'&gt;
+
+&lt;ul class='pull-left' style='padding-top: 20px;'&gt;
+
+&lt;li&gt;bogatstvo informacija&lt;/li&gt;
+
+&lt;li&gt;rizik od identifikacije?&lt;/li&gt;
+
+--
+
+&lt;li&gt;povezivanje s drugim izvorima&lt;/li&gt;
+
+--
+
+&lt;li&gt;informirani pristanak?&lt;/li&gt;
+
+--
+
+&lt;li&gt;odobrenje etičkog povjerenstva?&lt;/li&gt;
+&lt;/ul&gt;
+
+---
+
+class: animated, slideInLeft
+
+## Privatnost
+
+&lt;hr&gt;&lt;/hr&gt;
+
+&lt;img id='privacy' src='images/privacy.svg' class='pull-right'&gt;
+
+&lt;ul class='pull-left' style='padding-top: 70px;'&gt;
+
+&lt;li&gt;što je privatnost na društvenim mrežama?&lt;/li&gt;
+
+.whiteout[
+&lt;li&gt;privatni ili javni prostori?&lt;/li&gt;
+
+&lt;li&gt;očekivanja privatnosti od strane korisnika?&lt;/li&gt;
+]
+
+&lt;/ul&gt;
+
+---
+
+count: false
+
+## Privatnost
+
+&lt;hr&gt;&lt;/hr&gt;
+
+&lt;img id='privacy' src='images/privacy.svg' class='pull-right'&gt;
+
+&lt;ul class='pull-left' style='padding-top: 70px;'&gt;
+
+&lt;li&gt;što je privatnost na društvenim mrežama?&lt;/li&gt;
+
+&lt;li&gt;privatni ili javni prostori?&lt;/li&gt;
+
+--
+
+&lt;li&gt;očekivanja privatnosti od strane korisnika?&lt;/li&gt;
+
+&lt;/ul&gt;
+
+---
+
+class: sectionSlide, animated, slideInLeft
+
+# Uporaba
+
+---
+
+class: animated, slideInLeft
+
+&lt;blockquote style='margin-top: 130px'&gt;
+And, while some language technology is genuinely designed to benefit
+marginalized communities, most language technology is built to serve the needs
+of those who already have the most privilege in society. [...] [T]he harms that
+follow are most likely to fall on marginalized populations who, even in rich
+nations, are most likely to experience environmental racism.
+(Bender, et al., 2021; p. 4)
+&lt;/blockquote&gt;
+
+
+&lt;blockquote style='background: #ffffff'&gt;
+Poor people are more likely to have bad credit and live in high-crime
+neighborhoods, surrounded by poor other people. [The algorithm then] showers
+them with predatory ads for subprime loans [...]. It sends more police to
+arrest them, and when they're convicted, it sentences them to longer terms.
+&lt;/blockquote&gt;
+
+???
+
+5t CO2e po osobi u godinu dana; 284t CO2e za treniranje jednog modela
+
+---
+
+count: false
+
+&lt;blockquote style='margin-top: 130px'&gt;
+And, while some language technology is genuinely designed to benefit
+marginalized communities, most language technology is built to serve the needs
+of those who already have the most privilege in society. [...] [T]he harms that
+follow are most likely to fall on marginalized populations who, even in rich
+nations, are most likely to experience environmental racism.
+(Bender, et al., 2021; p. 4)
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+Poor people are more likely to have bad credit and live in high-crime
+neighborhoods, surrounded by other poor people. [The algorithm then] showers
+them with predatory ads for subprime loans [...]. It sends more police to
+arrest them, and when they're convicted, it sentences them to longer terms.
+(O'Neil, 2016; pp. 199-200)
+&lt;/blockquote&gt;
+
+---
+
+class: sectionSlide, animated, slideInLeft
+
+# Dijeljenje i pohrana
+
+---
+
+class: animated, slideInLeft
+
+&lt;img id='share' src='images/share.svg' class='pull-left'&gt;
+
+&lt;ul class='pull-right' style='margin-top: 180px'&gt;
+&lt;li&gt;anonimnost?&lt;/li&gt;
+
+.whiteout[
+&lt;li&gt;dopušteno dijeljenje?&lt;/li&gt;
+
+&lt;li&gt;reproducibilnost!&lt;/li&gt;
+]
+&lt;/ul&gt;
+
+---
+
+&lt;img id='share' src='images/share.svg' class='pull-left'&gt;
+
+&lt;ul class='pull-right' style='margin-top: 180px'&gt;
+&lt;li&gt;anonimnost?&lt;/li&gt;
+
+&lt;li&gt;dopušteno dijeljenje?&lt;/li&gt;
+
+--
+
+&lt;li&gt;reproducibilnost!&lt;/li&gt;
+&lt;/ul&gt;
+
+---
+
+class: animated, slideInLeft
+
+## Reference i resursi
+
+Bender, E. M. et al. (2021). "On the Dangers of Stochastic Parrots: Can
+Language Models Be Too Big". In: _Proceedings of FAccT_.
+
+Bishop, L. (2017). "Big Data and Data Sharing: Ethical Issues". In: _UK
+Data Service, UK Data Archive_ 7. URL:
+[https://ukdataservice.ac.uk/media/604711/big-data-and-data-sharing_ethical-issues.pdf](https://ukdataservice.ac.uk/media/604711/big-data-and-data-sharing_ethical-issues.pdf).
+
+O'Neil, C. (2016). _Weapons of Math Destruction: How Big Data Increases
+Inequality and Threatens Democracy_. Penguin.
+
+Team, C. T. (2020). "CESSDA Data Management Expert Guide".
+
+DOI:
+[10.5281/zenodo.3820473](https://doi.org/10.5281%2Fzenodo.3820473).
+URL:
+[https://doi.org/10.5281/zenodo.3820473](https://doi.org/10.5281/zenodo.3820473).
+
+Zook, M. et al. (2017). "Ten Simple Rules for Responsible Big Data
+Research". In: _PLOS Computational Biology_ 13.3, pp. 1-10. DOI:
+[10.1371/journal.pcbi.1005399](https://doi.org/10.1371%2Fjournal.pcbi.1005399).
+URL:
+[https://doi.org/10.1371/journal.pcbi.1005399](https://doi.org/10.1371/journal.pcbi.1005399).
+
+Ilustracije nastale na temelju [FontAwesome](https://fontawesome.com/) ikona
+koje su pokrivene CC-BY 4.0 [licencom](https://fontawesome.com/license).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -64,7 +64,7 @@ class: animated, slideInLeft
 <li>veliki skupovi podataka</li>
 
 .whiteout[
-<li>kontinuirano se proširuju</li>
+<li>kontinuirano se mijenjaju</li>
  
 <li>često nestrukturirani</li>
 
@@ -81,7 +81,7 @@ count: false
 <ul class='pull-right' style='padding-top: 90pt'>
 <li>veliki skupovi podataka</li>
 
-<li>kontinuirano se proširuju</li>
+<li>kontinuirano se mijenjaju</li>
  
 --
 
